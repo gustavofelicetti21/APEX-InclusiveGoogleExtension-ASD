@@ -1,0 +1,87 @@
+h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    padding: 20px;
+    margin: 0;
+    width: 350px;
+    background: #f8f8f8;
+}
+
+div {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+div#header {
+    margin-bottom: 32px;
+}
+
+img {
+    width: 125px;
+    margin-left: 112.5px;
+}
+
+div#commands h1 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div#commands div.colorFilter p {
+    float: left;
+    margin: auto;
+    width: auto;
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 6.5px;
+    margin-right: 20px;
+}
+
+div.colorFilter div.filter-wrapper {
+    width: 100px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 22px;
+    background-color: #2ab3e6;
+    overflow: hidden;
+    margin: 0;
+}
+
+div.colorFilter .filter-counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: inherit;
+    border-radius: 50%;
+    background-color: #fff;
+    font-size: 1rem;
+    color: #7378f9;
+    user-select: none;
+}
+
+div.colorFilter .filter-icrement-btn, .filter-decrement-btn {
+    width: 22px;
+    height: inherit;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+div.colorFilter .filter-icrement-btn {
+    margin-right: 10px;
+}
+
+div.colorFilter .filter-decrement-btn {
+    margin-left: 10px;
+}

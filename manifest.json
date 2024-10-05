@@ -1,0 +1,29 @@
+{
+    "name": "Link Azul",
+    "description": "A basic example extension with only required keys",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "action": {
+        "default_popup": "index.html"
+    },
+    "icons": {
+        "16": "img/favicon.png",
+        "32": "img/favicon.png",
+        "48": "img/favicon.png",
+        "128": "img/favicon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "js/script.js"
+            ]
+        }
+    ]
+}
